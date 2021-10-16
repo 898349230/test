@@ -8,7 +8,6 @@ public class DubboTestProvider {
 //        启动spring上下文
         context.start();
         try {
-
             System.in.read();
         } catch (Exception e) {
             System.out.println("error....");
